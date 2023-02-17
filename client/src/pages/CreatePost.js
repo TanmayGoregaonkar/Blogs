@@ -68,7 +68,7 @@ export default function CreatePost() {
       <ReactQuill
         value={content}
         onChange={(newValue) => setContent(newValue)}
-        modules={modules}
+        module={modules}
         formats={formats}
       />
       <button style={{ marginTop: "5px" }}>Create Post</button>
